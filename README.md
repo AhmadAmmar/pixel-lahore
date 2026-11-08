@@ -14,6 +14,18 @@ hangs on an elastic string in gusty wind (semi-implicit Euler); and pigeons floc
 The tutorial that builds this step by step, with class, data-flow, entity–relationship and free-body diagrams, is
 [Pixel animation from first principles](https://ahmadammar.github.io/teaching/pixel-animation/).
 
+## A real place: Tollinton Market, Mall Road
+
+Built from evidence: the footprint and streets from OpenStreetMap, heights and colours measured from an openly licensed
+photograph, the sun's position for 21 June at 07:30, a sky colour from Planck's law and Rayleigh scattering, and traffic
+from the Intelligent Driver Model. Step by step in the guide's
+[Tollinton Market chapter](https://ahmadammar.github.io/teaching/pixel-animation/tollinton-market/).
+
+![Traffic on Mall Road](docs/img/tollinton_traffic.gif)
+
+Map data © OpenStreetMap contributors (ODbL). Colours and heights measured from *Tollinton Market-Damn Cruze-2018-4.jpg*
+by Shahzaib Damn Cruze, Wikimedia Commons, CC BY-SA 4.0.
+
 ## Run
 
 Python (numpy and Pillow):
