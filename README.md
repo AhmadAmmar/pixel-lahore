@@ -26,6 +26,16 @@ from the Intelligent Driver Model. Step by step in the guide's
 Map data © OpenStreetMap contributors (ODbL). Colours and heights measured from *Tollinton Market-Damn Cruze-2018-4.jpg*
 by Shahzaib Damn Cruze, Wikimedia Commons, CC BY-SA 4.0.
 
+## An urban sketcher draws it
+
+`python/sketcher.py` animates a sketcher drawing the Tollinton scene in the order sketchers work (frame, eye level,
+vanishing points, the big box, roof, cupolas, rhythm, street, shadows first, lit faces, sky, life), with the thinking
+beside the paper. Every line is a true perspective line of the measured model; hidden lines are removed with an id
+buffer. Run `python sketcher.py PATH/TO/guides/pixel-animation/notebooks` (needs ffmpeg).
+[Watch the video](https://ahmadammar.github.io/files/pixel-animation/sketcher.mp4).
+
+![The sketcher, sped up](docs/img/sketcher_preview.gif)
+
 ## Run
 
 Python (numpy and Pillow):
