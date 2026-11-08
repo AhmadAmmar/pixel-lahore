@@ -1,0 +1,4 @@
+out/
+*.exe
+c/pixel_lahore
+__pycache__/
