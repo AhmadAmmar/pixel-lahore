@@ -21,7 +21,14 @@ photograph, the sun's position for 21 June at 07:30, a sky colour from Planck's 
 from the Intelligent Driver Model. Step by step in the guide's
 [Tollinton Market chapter](https://ahmadammar.github.io/teaching/pixel-animation/tollinton-market/).
 
-![Traffic on Mall Road](docs/img/tollinton_traffic.gif)
+![The final picture, 512 x 288 pixels enlarged three times](docs/img/tollinton_final.png)
+
+Also as [JPG](docs/img/tollinton_final.jpg) and [GIF](docs/img/tollinton_final.gif), with traffic in
+[tollinton_traffic_detailed.gif](docs/img/tollinton_traffic_detailed.gif). The notebook's steps, one per frame:
+
+![From map to picture](docs/img/tollinton_steps.gif)
+
+Regenerate all of these with `python python/export_tollinton.py PATH/TO/guides/pixel-animation/notebooks`.
 
 Map data © OpenStreetMap contributors (ODbL). Colours and heights measured from *Tollinton Market-Damn Cruze-2018-4.jpg*
 by Shahzaib Damn Cruze, Wikimedia Commons, CC BY-SA 4.0.
