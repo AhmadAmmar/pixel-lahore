@@ -1,4 +1,4 @@
-# Minar-e-Pakistan at sunset, with a kite: two frames, about 20 lines of code.
+# Minar-e-Pakistan at sunset, with a kite: two frames, 23 lines of code.
 from PIL import Image
 
 # 1. Canvas. Thought: "How small can it be and still read as the Minar?" A tower is tall and thin, so 32 x 48 pixels.
@@ -25,7 +25,7 @@ def frame(kite_x):
             if y >= 40:                                        # 5. Ground: the park's grass.
                 c = GRASS
             img.putpixel((x, y), c)
-    # 6. Kite. Thought: "Two frames are enough for motion if something swings." Shift it one pixel left and right.
+    # 6. Kite. Thought: "Two frames are enough for motion if something swings." Move it two pixels between frames.
     PATANG = ((0, -2), (-1, -1), (0, -1), (1, -1), (-2, 0), (-1, 0), (0, 0), (1, 0), (2, 0), (-1, 1), (0, 1), (1, 1), (0, 2))
     for dx, dy in PATANG + ((0, 3), (1, 4), (0, 5)):              # a diamond, the patang, plus a wiggly tail
         img.putpixel((kite_x + dx, 10 + dy), KITE)
